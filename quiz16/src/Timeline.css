@@ -1,0 +1,123 @@
+
+.timeline {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.create-tweet {
+  margin-bottom: 20px;
+}
+
+.create-tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.tweet-meta {
+  text-align: right;
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.tweet-icons button {
+  color: #DA6001;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.0s ease, color 0.1s ease;
+
+}
+
+.tweet-icons button:hover {
+  color: #000;
+}
+
+.icon-group {
+  display: flex;
+  gap: 5px;
+  background: none;
+}
+
+.share-button {
+  background-color: #DA6001;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+    transition: background-color 0.3s ease, color 0.1s ease;
+}
+
+.share-button:hover {
+  background-color: #fff;
+  color: #DA6001;
+  border: 1px solid #DA6001;
+}
+
+.tweets {
+  margin-top: 20px;
+}
+
+.tweet {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.default-pfp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #E4E4E4;
+  color: #555;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tweet-interactions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
